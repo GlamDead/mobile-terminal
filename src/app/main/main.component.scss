@@ -4,7 +4,25 @@ main {
   margin: 0 auto;
   height: 100vh;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+
+  img {
+    width: 320px;
+    position: absolute;
+
+    &.first-part {
+      top: 60px;
+      left: 30px;
+    }
+
+    &.second-part {
+      top: 300px;
+      right: 50px;
+    }
+
+    &.third-part {
+      top: 80%;
+      left: 48%;
+    }
+  }
 }

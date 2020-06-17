@@ -16,4 +16,8 @@ export const OPERATORS: Operators[] = [
     path: 'megafon.png',
     title: 'Мегафон',
   },
+  {
+    path: 'megafon.png',
+    title: 'Мегафон',
+  },
 ];

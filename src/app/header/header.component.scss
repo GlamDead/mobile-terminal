@@ -1,0 +1,23 @@
+:host {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 80px;
+}
+
+header {}
+
+.header-terminal {
+  font-family: 'Seymour One', sans-serif;
+  font-size: 46px;
+  display: flex;
+
+  span {
+    display: block;
+  }
+}
+
+.header-pay {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 25px;
+}

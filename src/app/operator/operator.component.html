@@ -1,6 +1,8 @@
 <ul class="list-operators">
   <li *ngFor="let operator of operators">
-    <img [src]="'/assets/' + operator.path" alt="" />
-    <p>{{ operator.title }}</p>
+    <div class="operator-wrapper">
+      <img [src]="'assets/img/operators/' + operator.path" alt="" />
+      <p>{{ operator.title }}</p>
+    </div>
   </li>
 </ul>
